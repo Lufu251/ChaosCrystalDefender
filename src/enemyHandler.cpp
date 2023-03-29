@@ -98,7 +98,7 @@ void enemyHandler::removeDead(assets &rGameAsset){
             if(rGameAsset.enemys[i]->currentHealth <= 0){
                 // add money
                 int moneyAdd;
-                moneyAdd = int(std::sqrtf(float(rGameAsset.waveCount))* 3.5 +2.5);
+                moneyAdd = int(std::sqrt(float(rGameAsset.waveCount))* 3.5 +2.5);
                 rGameAsset.money += moneyAdd;
             }
             std::swap(rGameAsset.enemys[i], rGameAsset.enemys.back());
