@@ -12,7 +12,6 @@ playState::playState(/* args */)
 
 void playState::init()
 {
-    std::cout << "play init \n";
     dataH.setTextureDirectory("data",3);
     dataH.loadFont("arial.ttf");
     dataH.loadTexture("tile1", "tileTexture1.png");
