@@ -1,2 +1,2 @@
 # ChaosCrystalDefense
-![Tower Defense](/master/data/spawnTexture.png)
+![Tower Defense](/data/spawnTexture.png)
