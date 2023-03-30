@@ -19,7 +19,7 @@
 - This project is from 2023 and I used all my knowledge that I have gathered until this point.
 - ChoasCrystalDefender is a classic TowerDefense game made with SFML writen in C++.
 - There are no levels just an open grid where you can place towers. The enemys will ajust the movement automatically to the path that was created.
-- 
+- ...
 - Have Fun!
 ## Installation
 - The project is build using SFML and Eigen.
