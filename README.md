@@ -3,7 +3,7 @@
 <!-- TABLE OF CONTENTS -->
 <detail>
   <summary>Table of Contents</summary>
-  <ul>
+  <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#wiki">Wiki</a></li>
@@ -12,7 +12,7 @@
         <li><a href="#towers">Towers</a></li>
         <li><a href="#enemys">Enemys</a></li>
       </ul>
-  </ul>
+  </ol>
 </detail>
 
 ## About The Project
