@@ -46,12 +46,12 @@
   - Focuser is a single target tower that does more damag when attacking the same enemy for extended time.
   - If an enemy is targeted for a long period it will deal high amount of damage that no other tower is capable of.
 ### Enemys
- - ![Fraber](/data/fraberTexture.png) Fraber
+- ![Fraber](/data/fraberTexture.png) Fraber
   - Speed: medium
   - Health: medium
- - ![hermer](/data/hermerTexture.png) Hermer
+- ![hermer](/data/hermerTexture.png) Hermer
   - Speed: high
   - Health: low
- - ![Tanker](/data/tankerTexture.png) Tanker
+- ![Tanker](/data/tankerTexture.png) Tanker
   - Speed: low
   - Health: High
