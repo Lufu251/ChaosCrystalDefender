@@ -1,1 +1,1 @@
-# ChaosCrystalDefense ![Tower Defense](/data/focuserIconTexture.png)
+# ChaosCrystalDefense ![Tower Defense](/data/logoTexture.png)
