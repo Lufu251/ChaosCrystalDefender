@@ -11,11 +11,11 @@
 </details>
 
 ## About The Project
-ChoasCrystalDefender is a classic TowerDefense game made with SFML. There are no levels just an open grid where you can place tower.
+ChoasCrystalDefender is a classic TowerDefense game made with SFML. There are no levels just an open grid where you can place towers.
 The enemys will ajust the path automatically acording to the path that was created.
-
 ## Installation
 
-
+The project it build using SFML:
+[![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
 
 ## Wiki
