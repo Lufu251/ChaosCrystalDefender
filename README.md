@@ -25,7 +25,7 @@ With the provided CMakeLists.txt you should be able to compile the project on Wi
 
 ## Wiki
 ### Basics
-- Spawn ![Spawn](/data/spawnTexture.png)
-- Base ![Base](/data/baseTexture.png)
+- ![Spawn](/data/spawnTexture.png) Spawn
+- ![Base](/data/baseTexture.png) Base
 ### Towers
 ### Enemys
