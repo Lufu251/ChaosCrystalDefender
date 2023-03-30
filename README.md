@@ -1,7 +1,7 @@
 # ![Tower Defense](/data/logoTexture.png) a TowerDefense game by Lufu251
 
 <!-- TABLE OF CONTENTS -->
-<ul>
+<detail>
   <summary>Table of Contents</summary>
   <ul>
     <li><a href="#about-the-project">About The Project</a></li>
@@ -13,7 +13,7 @@
         <li><a href="#enemys">Enemys</a></li>
       </ul>
   </ul>
-</ul>
+</detail>
 
 ## About The Project
 - This project is from 2023 and I used all my knowledge that I have gathered until this point.
