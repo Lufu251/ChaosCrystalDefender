@@ -34,8 +34,15 @@
 - The prevent enemys from reaching the base the player can place 5 unique towers that will attack the enemys.
 ### Towers
 - ![Zapper](/data/zapperIconTexture.png) Zapper
+  - Zapper is a single target tower that does damage to one enemy at a time.
 - ![Pulser](/data/pulserIconTexture.png) Pulser
+  - Pulser is a multi target tower that does damage to all enemys in its range.
 - ![Freezer](/data/freezerIconTexture.png) Freezer
+  - Freezer is a multi target tower that does no damage but will slow all enemys in its range.
 - ![Sniper](/data/sniperIconTexture.png) Sniper
+  - Sniper is a single target tower that does high damage but is limited by its speed.
+  - Sniper will also add a marker to the enemy that will increase all damage done to this enemy by 1.25 * damage.
 - ![Focuser](/data/focuserIconTexture.png) Focuser
+  - Focuser is a single target tower that does more damag when attacking the same enemy for extended time.
+  - If an enemy is targeted for a long period it will deal high amount of damage that no other tower is capable of.
 ### Enemys
