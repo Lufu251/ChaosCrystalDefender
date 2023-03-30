@@ -47,5 +47,5 @@
   - If an enemy is targeted for a long period it will deal high amount of damage that no other tower is capable of.
 ### Enemys
  - ![Fraber](/data/fraberTexture.png) Fraber
- - ![hermer](/data/hermerIconTexture.png) Hermer
- - ![Tanker](/data/tankerIconTexture.png) Tanker
+ - ![hermer](/data/hermerTexture.png) Hermer
+ - ![Tanker](/data/tankerTexture.png) Tanker
