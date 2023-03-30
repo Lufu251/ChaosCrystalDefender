@@ -27,8 +27,8 @@
 
 ## Wiki
 ### Basics
-- ![Spawn](/data/spawnTexture.png) Spawn
-- ![Base](/data/baseTexture.png) Base
+- ![Spawn](/data/spawnTexture.png) **Spawn
+- ![Base](/data/baseTexture.png) **Base
 - Enemys will spawn at the "Spawn" and move towards the "Base".
 - If they have reache the "Base" they will do damage to the "Base".
 - If the Health of the Base is 0 indicated by the healthbar in the top rigth corner the game will end.
@@ -36,26 +36,26 @@
 - If an enemy dies it will add money to the player. The amount of money is scaled by the amount of waves.
 - Money can be used to build new towers or upgrade existing towers.
 ### Towers
-- ![Zapper](/data/zapperIconTexture.png) Zapper
+- ![Zapper](/data/zapperIconTexture.png) **Zapper**
   - Zapper is a single target tower that does damage to one enemy at a time.
-- ![Pulser](/data/pulserIconTexture.png) Pulser
+- ![Pulser](/data/pulserIconTexture.png) **Pulser**
   - Pulser is a multi target tower that does damage to all enemys in its range.
-- ![Freezer](/data/freezerIconTexture.png) Freezer
+- ![Freezer](/data/freezerIconTexture.png) **Freezer**
   - Freezer is a multi target tower that does no damage but will slow all enemys in its range.
-- ![Sniper](/data/sniperIconTexture.png) Sniper
+- ![Sniper](/data/sniperIconTexture.png) **Sniper**
   - Sniper is a single target tower that does high damage but is limited by its speed.
   - Sniper will also add a marker to the enemy that will increase all damage done to this enemy by 1.25 * damage.
-- ![Focuser](/data/focuserIconTexture.png) Focuser
+- ![Focuser](/data/focuserIconTexture.png) **Focuser**
   - Focuser is a single target tower that does more damag when attacking the same enemy for extended time.
   - If an enemy is targeted for a long period it will deal high amount of damage that no other tower is capable of.
 ### Enemys
 - Enemys health and speed are scaled with the amount of waves.
-- ![Fraber](/data/fraberTexture.png) Fraber
+- ![Fraber](/data/fraberTexture.png) **Fraber**
   - Speed: medium
   - Health: medium
-- ![hermer](/data/hermerTexture.png) Hermer
+- ![hermer](/data/hermerTexture.png) **Hermer**
   - Speed: high
   - Health: low
-- ![Tanker](/data/tankerTexture.png) Tanker
+- ![Tanker](/data/tankerTexture.png) **Tanker**
   - Speed: low
   - Health: High
