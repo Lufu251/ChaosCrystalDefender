@@ -16,6 +16,8 @@ The enemys will ajust the path automatically acording to the path that was creat
 ## Installation
 
 The project it build using SFML:
-[![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
+![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
+
+and Eigen:
 
 ## Wiki
