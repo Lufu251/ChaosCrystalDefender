@@ -27,8 +27,8 @@
 
 ## Wiki
 ### Basics
-- ![Spawn](/data/spawnTexture.png) **Spawn
-- ![Base](/data/baseTexture.png) **Base
+- ![Spawn](/data/spawnTexture.png) **Spawn**
+- ![Base](/data/baseTexture.png) **Base**
 - Enemys will spawn at the "Spawn" and move towards the "Base".
 - If they have reache the "Base" they will do damage to the "Base".
 - If the Health of the Base is 0 indicated by the healthbar in the top rigth corner the game will end.
