@@ -28,4 +28,9 @@ With the provided CMakeLists.txt you should be able to compile the project on Wi
 - ![Spawn](/data/spawnTexture.png) Spawn
 - ![Base](/data/baseTexture.png) Base
 ### Towers
+- ![Zapper](/data/zapperIconTexture.png) Zapper
+- ![Pulser](/data/pulserIconTexture.png) Pulser
+- ![Freezer](/data/freezerIconTexture.png) Freezer
+- ![Sniper](/data/sniperIconTexture.png) Sniper
+- ![Focuser](/data/focuserIconTexture.png) Focuser
 ### Enemys
