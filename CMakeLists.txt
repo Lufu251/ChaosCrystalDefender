@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11)
 
-project(Test)
+project(ChaosCrytstalDefender)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -28,7 +28,7 @@ include_directories(
 	"${CMAKE_CURRENT_LIST_DIR}/include/attack" 
 )
 
-add_executable(test
+add_executable(ChaosCrytstalDefender
 	src/main.cpp 
 	src/playState.cpp 
 	src/menuState.cpp 
@@ -63,7 +63,7 @@ FetchContent_Declare(
     GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(SFML)
 
-target_link_libraries(test
+target_link_libraries(ChaosCrytstalDefender
 		sfml-graphics 
 		sfml-audio 
 		sfml-network 
@@ -86,6 +86,6 @@ set(EIGEN_BUILD_PKGCONFIG OFF)
 
 FetchContent_MakeAvailable(Eigen)
 
-target_link_libraries(test
+target_link_libraries(ChaosCrytstalDefender
 		 Eigen3::Eigen
 )
