@@ -10,13 +10,10 @@
 
 class PathSearcher
 {
-
-private:
-    // data
 public:
     PathSearcher(){}
     ~PathSearcher(){}
-
+private:
     // returns the directory of the executable
     std::string getExecutableDirPath() {
         #ifdef _WIN64
@@ -30,7 +27,8 @@ public:
         return std::string(buf, buf + len);
         #endif
     }
-    
+
+public:
     // returns the folder path if it was found
     // dir = folder name you want to search
     // searchDepth = the amount of layer to search going down from executable path

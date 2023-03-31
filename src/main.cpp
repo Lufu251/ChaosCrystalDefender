@@ -3,6 +3,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 
+#include <pathSearcher.h>
 #include <globalValues.h>
 #include <gameState.h>
 #include <menuState.h>
@@ -40,15 +41,24 @@ void handelEvents(sf::RenderWindow& rWindow, inputHandler& rInputH){
 int main()
 {
     g_Running = true;
-    sf::RenderWindow window(sf::VideoMode(1200, 900), "Tower Defense", sf::Style::Default, sf::ContextSettings(0, 0, 4, 1, 1, 0, false));
-    window.setFramerateLimit(60);
+    sf::RenderWindow window(sf::VideoMode(1200, 900), "ChaosCrystalDefender", sf::Style::Default, sf::ContextSettings(0, 0, 4, 1, 1, 0, false));
     std::unique_ptr<gameState> state = std::make_unique<menuState>();
     stateHandler stateH;
     inputHandler inputH;
+    PathSearcher ps;
+
+    window.setFramerateLimit(60);
 
     inputH.newMouseButton("left", sf::Mouse::Left);
     inputH.newMouseButton("right", sf::Mouse::Right);
     inputH.newMouseButton("middle", sf::Mouse::Middle);
+
+    auto image = sf::Image{};
+    if (!image.loadFromFile(ps.getDirPath("data",3).string() + "/baseTexture.png"))
+    {
+        std::cout << "failed to load icon" << std::endl;
+    }
+    window.setIcon(image.getSize().x, image.getSize().y, image.getPixelsPtr());
 
     while (window.isOpen() && g_Running)
     {
