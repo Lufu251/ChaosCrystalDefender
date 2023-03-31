@@ -174,7 +174,7 @@ void guiRenderer::renderGameMenu(sf::RenderWindow &rWindow, assets &rGameAsset, 
                 sstream << "R: " << rGameH.baseRangeZapper << std::endl;
             }
             else if(mb.action == "pulser"){
-                towerImage.setTexture(rDataH.getTexture("pulser"));
+                towerImage.setTexture(rDataH.getTexture("pulserIcon"));
                 sstream << "pulser" << std::endl;
                 sstream << "$: " << rGameH.baseCostPulser << std::endl;
                 sstream << "D: " << rGameH.baseDamagePulser << std::endl;
@@ -182,7 +182,7 @@ void guiRenderer::renderGameMenu(sf::RenderWindow &rWindow, assets &rGameAsset, 
                 sstream << "R: " << rGameH.baseRangePulser << std::endl;
             }
             else if(mb.action == "freezer"){
-                towerImage.setTexture(rDataH.getTexture("freezer"));
+                towerImage.setTexture(rDataH.getTexture("freezerIcon"));
                 sstream << "freezer" << std::endl;
                 sstream << "$: " << rGameH.baseCostFreezer << std::endl;
                 sstream << "D: " << rGameH.baseDamageFreezer << std::endl;

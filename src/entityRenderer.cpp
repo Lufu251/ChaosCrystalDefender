@@ -108,10 +108,14 @@ void entityRenderer::renderEntities(sf::RenderWindow& rWindow, dataHandler& rDat
                 renderTop = true;
             }
             else if(type == "pulser"){
-                towerBaseShape.setTexture(&rDataH.getTexture("pulser"));
+                towerTopShape.setTexture(&rDataH.getTexture("pulserTop"));
+                towerBaseShape.setTexture(&rDataH.getTexture("pulserBase"));
+                renderTop = true;
             }
             else if(type == "freezer"){
-                towerBaseShape.setTexture(&rDataH.getTexture("freezer"));
+                towerTopShape.setTexture(&rDataH.getTexture("freezerTop"));
+                towerBaseShape.setTexture(&rDataH.getTexture("freezerBase"));
+                renderTop = true;
             }
             else if(type == "focuser"){
                 towerTopShape.setTexture(&rDataH.getTexture("focuserTop"));

@@ -30,9 +30,13 @@ void playState::init()
     dataH.loadTexture("sniperTop", "sniperTopTexture.png");
     dataH.loadTexture("sniperIcon", "sniperIconTexture.png");
 
-    dataH.loadTexture("pulser", "pulserTexture.png");
+    dataH.loadTexture("pulserBase", "pulserBaseTexture.png");
+    dataH.loadTexture("pulserTop", "pulserTopTexture.png");
+    dataH.loadTexture("pulserIcon", "pulserIconTexture.png");
 
-    dataH.loadTexture("freezer", "freezerTexture.png");
+    dataH.loadTexture("freezerBase", "freezerBaseTexture.png");
+    dataH.loadTexture("freezerTop", "freezerTopTexture.png");
+    dataH.loadTexture("freezerIcon", "freezerIconTexture.png");
 
     dataH.loadTexture("buttonStyle", "buttonStyle.png");
 
