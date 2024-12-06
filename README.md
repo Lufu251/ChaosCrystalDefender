@@ -7,6 +7,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#wiki">Wiki</a></li>
+    <li><a href="#media">Media</a></li>
       <ul>
         <li><a href="#basics">Basics</a></li>
         <li><a href="#towers">Towers</a></li>
@@ -63,3 +64,7 @@
 - ![Tanker](/data/tankerTexture.png) **Tanker**
   - Speed: low
   - Health: High
+
+## Media
+![image](https://github.com/user-attachments/assets/52fdb06e-b4ec-4309-9e22-90e35231f48c)
+
