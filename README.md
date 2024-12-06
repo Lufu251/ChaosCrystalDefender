@@ -1,4 +1,5 @@
-# ![Tower Defense](/data/logoTexture.png) a TowerDefense game by Lufu251
+# ![Tower Defense](/data/logoTexture.png) 
+# a TowerDefense game by Lufu251
 
 <!-- TABLE OF CONTENTS -->
 <details>
